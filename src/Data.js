@@ -1,6 +1,6 @@
 export const about = [
     {
-        imgUrl: '/assets/about01.png',
+        imgUrl: '/src/assets/about01.png',
         title: 'Frontend Developer',
         description: 'A Frontend Developer with expertise in crafting engaging user experiences.',
     },

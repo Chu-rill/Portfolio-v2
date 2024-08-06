@@ -1,21 +1,21 @@
 export const about = [
     {
-        imgUrl: 'src/assets/about01.png',
+        imgUrl: require('./assets/about01.png').default,
         title: 'Frontend Developer',
         description: 'A Frontend Developer with expertise in crafting engaging user experiences.',
     },
     {
-        imgUrl: '/assets/about02.png',
+        imgUrl: require('./assets/about02.png').default,
         title: 'Freelancer',
         description: 'An experienced freelance frontend developer capable of bringing a clients dream site to reality.',
     },
     {
-        imgUrl: '/assets/about03.png',
+        imgUrl: require('./assets/about03.png').default,
         title: 'Technical Writer',
-        description: 'A writer with experience in crafting user-centric technical documentations',
+        description: 'A writer with experience in crafting user-centric technical documentation.',
     },
     {
-        imgUrl: '/assets/about04.png',
+        imgUrl: require('./assets/about04.png').default,
         title: 'React Developer',
         description: 'A React Developer with a passion for building dynamic and interactive user interfaces.',
     },
@@ -24,7 +24,7 @@ export const about = [
 export const works = [
     {
         name: "Green Land",
-        imgUrl: "/assets/project1.png",
+        imgUrl: require('./assets/project1.png').default,
         projectLink: "https://greenland-five.vercel.app/",
         codeLink: "https://github.com/Oladotunlaniyan/greenland",
         title: "Green Land",
@@ -33,7 +33,7 @@ export const works = [
     },
     {
         name: "Filmpire Clone",
-        imgUrl: "/assets/project2.png",
+        imgUrl: require('./assets/project2.png').default,
         projectLink: "https://film-pire-clone.vercel.app/",
         codeLink: "https://github.com/Oladotunlaniyan/Film-pire-clone-2",
         title: "Filmpire Clone",
@@ -42,7 +42,7 @@ export const works = [
     },
     {
         name: "95AP ecommerce store",
-        imgUrl: "/assets/project3.png",
+        imgUrl: require('./assets/project3.png').default,
         projectLink: "https://ninefiveap.com/",
         codeLink: "https://github.com/Oladotunlaniyan",
         title: "95AP ecommerce store",
@@ -51,7 +51,7 @@ export const works = [
     },
     {
         name: "Youtube Clone",
-        imgUrl: "/assets/project4.png",
+        imgUrl: require('./assets/project4.png').default,
         projectLink: "https://youtube-clone-ten-alpha.vercel.app/",
         codeLink: "https://github.com/Oladotunlaniyan/Youtube-Clone",
         title: "Youtube Clone",
@@ -60,7 +60,7 @@ export const works = [
     },
     {
         name: "React Portofolio",
-        imgUrl: "/assets/project5.png",
+        imgUrl: require('./assets/project5.png').default,
         projectLink: "https://react-portfolio-1-chi.vercel.app/",
         codeLink: "https://github.com/Oladotunlaniyan/React-portfolio-1",
         title: "React Portofolio",
@@ -73,71 +73,71 @@ export const skills = [
     {
         name: "JavaScript",
         bgColor: "#e4e4e4",
-        icon: "/assets/javascript.png", 
+        icon: require('./assets/javascript.png').default,
     },
     {
         name: "React",
         bgColor: "#e4e4e4",
-        icon: "/assets/react.png", 
+        icon: require('./assets/react.png').default,
     },
     {
         name: "CSS",
         bgColor: "#e4e4e4",
-        icon: "/assets/css.png", 
+        icon: require('./assets/css.png').default,
     },
     {
         name: "tailwind",
         bgColor: "#e4e4e4",
-        icon: "/assets/tailwind.png", 
+        icon: require('./assets/tailwind.png').default,
     },
     {
         name: "vue",
         bgColor: "#e4e4e4",
-        icon: "/assets/vue.png", 
+        icon: require('./assets/vue.png').default,
     },
     {
         name: "node",
         bgColor: "#e4e4e4",
-        icon: "/assets/node.png", 
+        icon: require('./assets/node.png').default,
     },
     {
         name: "Nextjs",
         bgColor: "#e4e4e4",
-        icon: "/assets/nextjs.png", 
+        icon: require('./assets/nextjs.png').default,
     },
     {
         name: "GraphQl",
         bgColor: "#e4e4e4",
-        icon: "/assets/graphql.png", 
+        icon: require('./assets/graphql.png').default,
     },
     {
         name: "Git",
         bgColor: "#e4e4e4",
-        icon: "/assets/git.png", 
+        icon: require('./assets/git.png').default,
     },
     {
         name: "Figma",
         bgColor: "#e4e4e4",
-        icon: "/assets/figma.png", 
+        icon: require('./assets/figma.png').default,
     },
     {
         name: "Firebase",
         bgColor: "#e4e4e4",
-        icon: "/assets/firebase.png", 
+        icon: require('./assets/firebase.png').default,
     },
     {
         name: "Redux",
         bgColor: "#e4e4e4",
-        icon: "/assets/redux.png", 
+        icon: require('./assets/redux.png').default,
     },
     {
         name: "SASS",
         bgColor: "#e4e4e4",
-        icon: "/assets/sass.png", 
+        icon: require('./assets/sass.png').default,
     },
     {
         name: "Typescript",
         bgColor: "#e4e4e4",
-        icon: "/assets/typescript.png", 
+        icon: require('./assets/typescript.png').default,
     },
 ];

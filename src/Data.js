@@ -1,21 +1,46 @@
+import about01 from './assets/about01.png';
+import about02 from './assets/about02.png';
+import about03 from './assets/about03.png';
+import about04 from './assets/about04.png';
+import project1 from './assets/project1.png';
+import project2 from './assets/project2.png';
+import project3 from './assets/project3.png';
+import project4 from './assets/project4.png';
+import project5 from './assets/project5.png';
+import javascript from './assets/javascript.png';
+import react from './assets/react.png';
+import css from './assets/css.png';
+import tailwind from './assets/tailwind.png';
+import vue from './assets/vue.png';
+import node from './assets/node.png';
+import nextjs from './assets/nextjs.png';
+import graphql from './assets/graphql.png';
+import git from './assets/git.png';
+import figma from './assets/figma.png';
+import firebase from './assets/firebase.png';
+import redux from './assets/redux.png';
+import sass from './assets/sass.png';
+import typescript from './assets/typescript.png';
+
+
 export const about = [
     {
-        imgUrl: require('./assets/about01.png').default,
+        imgUrl: about01,
         title: 'Frontend Developer',
         description: 'A Frontend Developer with expertise in crafting engaging user experiences.',
     },
     {
-        imgUrl: require('./assets/about02.png').default,
+        imgUrl: about02,
         title: 'Freelancer',
         description: 'An experienced freelance frontend developer capable of bringing a clients dream site to reality.',
     },
     {
-        imgUrl: require('./assets/about03.png').default,
+        imgUrl: about03,
         title: 'Technical Writer',
-        description: 'A writer with experience in crafting user-centric technical documentation.',
+        description: 'A writer with experience in crafting user-centric technical documentations',
     },
     {
-        imgUrl: require('./assets/about04.png').default,
+        imgUrl: about04,
         title: 'React Developer',
         description: 'A React Developer with a passion for building dynamic and interactive user interfaces.',
     },
@@ -24,7 +49,7 @@ export const about = [
 export const works = [
     {
         name: "Green Land",
-        imgUrl: require('./assets/project1.png').default,
+        imgUrl: project1,
         projectLink: "https://greenland-five.vercel.app/",
         codeLink: "https://github.com/Oladotunlaniyan/greenland",
         title: "Green Land",
@@ -33,7 +58,7 @@ export const works = [
     },
     {
         name: "Filmpire Clone",
-        imgUrl: require('./assets/project2.png').default,
+        imgUrl: project2,
         projectLink: "https://film-pire-clone.vercel.app/",
         codeLink: "https://github.com/Oladotunlaniyan/Film-pire-clone-2",
         title: "Filmpire Clone",
@@ -42,7 +67,7 @@ export const works = [
     },
     {
         name: "95AP ecommerce store",
-        imgUrl: require('./assets/project3.png').default,
+        imgUrl: project3,
         projectLink: "https://ninefiveap.com/",
         codeLink: "https://github.com/Oladotunlaniyan",
         title: "95AP ecommerce store",
@@ -51,7 +76,7 @@ export const works = [
     },
     {
         name: "Youtube Clone",
-        imgUrl: require('./assets/project4.png').default,
+        imgUrl: project4,
         projectLink: "https://youtube-clone-ten-alpha.vercel.app/",
         codeLink: "https://github.com/Oladotunlaniyan/Youtube-Clone",
         title: "Youtube Clone",
@@ -60,7 +85,7 @@ export const works = [
     },
     {
         name: "React Portofolio",
-        imgUrl: require('./assets/project5.png').default,
+        imgUrl: project5,
         projectLink: "https://react-portfolio-1-chi.vercel.app/",
         codeLink: "https://github.com/Oladotunlaniyan/React-portfolio-1",
         title: "React Portofolio",
@@ -73,71 +98,71 @@ export const skills = [
     {
         name: "JavaScript",
         bgColor: "#e4e4e4",
-        icon: require('./assets/javascript.png').default,
+        icon: javascript,
     },
     {
         name: "React",
         bgColor: "#e4e4e4",
-        icon: require('./assets/react.png').default,
+        icon: react,
     },
     {
         name: "CSS",
         bgColor: "#e4e4e4",
-        icon: require('./assets/css.png').default,
+        icon: css,
     },
     {
         name: "tailwind",
         bgColor: "#e4e4e4",
-        icon: require('./assets/tailwind.png').default,
+        icon: tailwind,
     },
     {
         name: "vue",
         bgColor: "#e4e4e4",
-        icon: require('./assets/vue.png').default,
+        icon: vue,
     },
     {
         name: "node",
         bgColor: "#e4e4e4",
-        icon: require('./assets/node.png').default,
+        icon: node,
     },
     {
         name: "Nextjs",
         bgColor: "#e4e4e4",
-        icon: require('./assets/nextjs.png').default,
+        icon: nextjs,
     },
     {
         name: "GraphQl",
         bgColor: "#e4e4e4",
-        icon: require('./assets/graphql.png').default,
+        icon: graphql,
     },
     {
         name: "Git",
         bgColor: "#e4e4e4",
-        icon: require('./assets/git.png').default,
+        icon: git,
     },
     {
         name: "Figma",
         bgColor: "#e4e4e4",
-        icon: require('./assets/figma.png').default,
+        icon: figma,
     },
     {
         name: "Firebase",
         bgColor: "#e4e4e4",
-        icon: require('./assets/firebase.png').default,
+        icon: firebase,
     },
     {
         name: "Redux",
         bgColor: "#e4e4e4",
-        icon: require('./assets/redux.png').default,
+        icon: redux,
     },
     {
         name: "SASS",
         bgColor: "#e4e4e4",
-        icon: require('./assets/sass.png').default,
+        icon: sass,
     },
     {
         name: "Typescript",
         bgColor: "#e4e4e4",
-        icon: require('./assets/typescript.png').default,
+        icon: typescript,
     },
 ];

@@ -13,7 +13,6 @@
 
   .app__navbar-logo {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
     color: #6b7688;
     font-size: 1.5rem;
@@ -25,17 +24,20 @@
         width: 150px;
       }
     }
-    .logo-2 {
-      width: 32px;
+  }
 
-      @media screen and (min-width: 2000px) {
-        width: 45px;
-      }
+  .app__navbar-links-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (max-width: 900px) {
+      display: none;
     }
   }
 
   .app__navbar-links {
-    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,20 +68,14 @@
         }
       }
 
-      &:hover {
-        div {
-          background: var(--secondary-color);
-        }
+      &:hover div {
+        background: var(--secondary-color);
       }
-    }
-
-    @media screen and (max-width: 900px) {
-      display: none;
     }
   }
 
   .app__navbar-menu {
-    cursor:pointer;
+    cursor: pointer;
     width: 35px;
     height: 35px;
     border-radius: 50%;
@@ -87,6 +83,8 @@
     align-items: center;
     justify-content: center;
     background: var(--secondary-color);
+    border: none;
+    outline: none;
 
     svg {
       width: 70%;
@@ -102,20 +100,14 @@
   .menu {
     position: absolute;
     top: 0;
-    bottom: 0;
     right: 0;
     z-index: 5;
     padding: 1rem;
     width: 80%;
     height: 100vh;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
     flex-direction: column;
-    background: url('../../assets/bgWhite.png');
     background-color: var(--white-color);
-    background-size: cover;
-    background-repeat: repeat;
     box-shadow: 0 0 20px rgba(168, 168, 168, 0.15);
 
     svg {
@@ -129,12 +121,10 @@
       list-style: none;
       margin: 0;
       padding: 0;
-      height: 100%;
       width: 100%;
       display: flex;
-      justify-content: flex-start;
-      align-items: flex-start;
       flex-direction: column;
+      align-items: flex-start;
       color: var(--gray-color);
 
       li {
@@ -170,9 +160,17 @@
         }
 
         .socials {
+          display: flex;
+          gap: 15px;
+
           svg {
             color: var(--gray-color);
             width: 25px;
+            transition: color 0.3s ease-in-out;
+
+            &:hover {
+              color: var(--secondary-color);
+            }
           }
         }
       }

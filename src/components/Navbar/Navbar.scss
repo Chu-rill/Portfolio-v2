@@ -59,12 +59,16 @@
       a {
         color: var(--gray-color);
         text-decoration: none;
-        text-transform: uppercase;
+        text-transform: uppercase;  /* Uppercase by default */
         font-weight: 500;
         transition: all 0.3s ease-in-out;
 
         &:hover {
           color: var(--secondary-color);
+        }
+
+        &.resume-link {
+          text-transform: none;  /* No text-transform for resume link */
         }
       }
 
@@ -147,6 +151,10 @@
 
           &:hover {
             color: var(--secondary-color);
+          }
+
+          &.resume-link {
+            text-transform: none; /* Ensure the resume link is not uppercase */
           }
         }
       }

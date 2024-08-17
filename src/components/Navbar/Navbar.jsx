@@ -33,8 +33,8 @@ const NavbarLinks = ({ onClick }) => (
         <a href={`#${item}`} onClick={onClick}>{item}</a>
       </li>
     ))}
-    <li>
-      <a href={images.resume} rel='noreferrer' target='_blank'>My Resume</a>
+     <li>
+      <a href={images.resume} className='resume-link' rel='noreferrer' target='_blank'>My Resume</a>
     </li>
   </ul>
 );

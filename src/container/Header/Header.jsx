@@ -55,7 +55,7 @@ const Header = forwardRef(function Header(props, ref) {
           whileInView={scaleVariants.whileInView}
           className="app__header-circles"
         >
-          {[images.html, images.react, images.sass].map((circle, index) => (
+          {[images.mongodb, images.node, images.react].map((circle, index) => (
             <div className="circle-cmp app__flex" key={`circle-${index}`}>
               <img src={circle} alt="" />
             </div>

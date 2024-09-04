@@ -16,6 +16,9 @@ import node from "./assets/node.png";
 import nextjs from "./assets/nextjs.png";
 import graphql from "./assets/graphql.png";
 import git from "./assets/git.png";
+import mongodb from "./assets/mongodb.png";
+import sql from "./assets/sql.png";
+import postman from "./assets/postman.png";
 import figma from "./assets/figma.png";
 import firebase from "./assets/firebase.png";
 import redux from "./assets/redux.png";
@@ -118,54 +121,30 @@ export const skills = [
     bgColor: "#e4e4e4",
     icon: tailwind,
   },
-  //   {
-  //     name: "vue",
-  //     bgColor: "#e4e4e4",
-  //     icon: vue,
-  //   },
   {
     name: "node",
     bgColor: "#e4e4e4",
     icon: node,
   },
-  //   {
-  //     name: "Nextjs",
-  //     bgColor: "#e4e4e4",
-  //     icon: nextjs,
-  //   },
-  //   {
-  //     name: "GraphQl",
-  //     bgColor: "#e4e4e4",
-  //     icon: graphql,
-  //   },
+
   {
     name: "Git",
     bgColor: "#e4e4e4",
     icon: git,
   },
-  //   {
-  //     name: "Figma",
-  //     bgColor: "#e4e4e4",
-  //     icon: figma,
-  //   },
-  //   {
-  //     name: "Firebase",
-  //     bgColor: "#e4e4e4",
-  //     icon: firebase,
-  //   },
-  //   {
-  //     name: "Redux",
-  //     bgColor: "#e4e4e4",
-  //     icon: redux,
-  //   },
-  //   {
-  //     name: "SASS",
-  //     bgColor: "#e4e4e4",
-  //     icon: sass,
-  //   },
-  //   {
-  //     name: "Typescript",
-  //     bgColor: "#e4e4e4",
-  //     icon: typescript,
-  //   },
+  {
+    name: "MongoDB",
+    bgColor: "#e4e4e4",
+    icon: mongodb,
+  },
+  {
+    name: "SQL",
+    bgColor: "#e4e4e4",
+    icon: sql,
+  },
+  {
+    name: "Postman",
+    bgColor: "#e4e4e4",
+    icon: postman,
+  },
 ];

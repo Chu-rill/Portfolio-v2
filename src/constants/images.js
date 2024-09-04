@@ -16,6 +16,8 @@ import react from "../assets/react.png";
 import redux from "../assets/redux.png";
 import sass from "../assets/sass.png";
 import mongodb from "../assets/mongodb.png";
+import sql from "../assets/sql.png";
+import postman from "../assets/postman.png";
 import typescript from "../assets/typescript.png";
 import vue from "../assets/vue.png";
 
@@ -50,6 +52,8 @@ export default {
   figma,
   flutter,
   mongodb,
+  sql,
+  postman,
   git,
   graphql,
   html,

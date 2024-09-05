@@ -20,13 +20,14 @@ import sql from "../assets/sql.png";
 import postman from "../assets/postman.png";
 import typescript from "../assets/typescript.png";
 import vue from "../assets/vue.png";
+import firebase from "../assets/firebase.png";
 
 import about01 from "../assets/about01.png";
 import about02 from "../assets/about02.png";
 import about03 from "../assets/about03.png";
 import about04 from "../assets/about04.png";
 
-import profile from "../assets/profile2.jpg";
+import profile from "../assets/profile.jpg";
 import circle from "../assets/circle.svg";
 // import logo from '../assets/logo.png';
 // import logo1 from '../assets/logo1.png'
@@ -51,6 +52,7 @@ export default {
   css,
   figma,
   flutter,
+  firebase,
   mongodb,
   sql,
   postman,

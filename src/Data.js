@@ -22,6 +22,9 @@ import sql from "./assets/sql.png";
 import postman from "./assets/postman.png";
 import figma from "./assets/figma.png";
 import firebase from "./assets/firebase.png";
+import supabase from "./assets/supabase.png";
+import python from "./assets/python.png";
+import api from "./assets/api.png";
 import redux from "./assets/redux.png";
 import sass from "./assets/sass.png";
 import typescript from "./assets/typescript.png";
@@ -147,5 +150,25 @@ export const skills = [
     name: "Postman",
     bgColor: "#e4e4e4",
     icon: postman,
+  },
+  {
+    name: "Firebase",
+    bgColor: "#e4e4e4",
+    icon: firebase,
+  },
+  {
+    name: "Python",
+    bgColor: "#e4e4e4",
+    icon: python,
+  },
+  {
+    name: "Api",
+    bgColor: "#e4e4e4",
+    icon: api,
+  },
+  {
+    name: "Supabase",
+    bgColor: "#e4e4e4",
+    icon: supabase,
   },
 ];

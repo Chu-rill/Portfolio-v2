@@ -90,16 +90,6 @@ export const works = [
     stacks: ["HTML", "CSS", "JAVASCRIPT"],
   },
   {
-    name: "Recipe Suggester",
-    imgUrl: project5,
-    projectLink: "https://chu-rill.github.io/recipe_suggester/",
-    codeLink: "https://github.com/Chu-rill/recipe_suggester",
-    title: "Recipe Suggester",
-    description:
-      "An application that randomly suggests three recipes from a database, using an API to inspire your next meal.",
-    stacks: ["HTML", "CSS", "JAVASCRIPT"],
-  },
-  {
     name: "URL Shortener",
     imgUrl: project6,
     projectLink: "https://url-shortener-7rj6.onrender.com/",

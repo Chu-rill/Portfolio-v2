@@ -7,6 +7,7 @@ import project2 from "./assets/project2.png";
 import project3 from "./assets/project3.png";
 import project4 from "./assets/project4.png";
 import project5 from "./assets/project5.png";
+import project6 from "./assets/project6.png";
 import javascript from "./assets/javascript.png";
 import react from "./assets/react.png";
 import css from "./assets/css.png";
@@ -97,6 +98,16 @@ export const works = [
     description:
       "An application that randomly suggests three recipes from a database, using an API to inspire your next meal.",
     stacks: ["HTML", "CSS", "JAVASCRIPT"],
+  },
+  {
+    name: "URL Shortener",
+    imgUrl: project6,
+    projectLink: "https://url-shortener-7rj6.onrender.com/",
+    codeLink: "https://github.com/Chu-rill/URL-Shortener",
+    title: "URL Shortener",
+    description:
+      "A web application that allows users to shorten long URLs into more manageable, shareable links. It also tracks usage statistics, providing insights into link performance.",
+    stacks: ["EJS", "MongoDB", "Express"],
   },
 ];
 

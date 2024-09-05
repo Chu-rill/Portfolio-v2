@@ -11,7 +11,7 @@ const links = ["home", "about", "work", "skills", "contact"];
 const SocialLinks = () => (
   <div className="socials">
     <a
-      href="https://x.com/Devdotun"
+      href="https://x.com/chu_rill"
       target="_blank"
       rel="noreferrer"
       aria-label="Twitter"
@@ -19,7 +19,7 @@ const SocialLinks = () => (
       <BsTwitter />
     </a>
     <a
-      href="https://www.linkedin.com/in/abdul-qawi-laniyan-173355248/"
+      href="https://www.linkedin.com/in/churchill-daniel-b66a752a7/"
       target="_blank"
       rel="noreferrer"
       aria-label="LinkedIn"
@@ -27,14 +27,14 @@ const SocialLinks = () => (
       <BsLinkedin />
     </a>
     <a
-      href="https://github.com/Oladotunlaniyan"
+      href="https://github.com/Chu-rill"
       target="_blank"
       rel="noreferrer"
       aria-label="GitHub"
     >
       <BsGithub />
     </a>
-    <a href="mailto: oladotunlaniyan@gmail.com" aria-label="Email">
+    <a href="mailto: churchilldaniel687@gmail.com" aria-label="Email">
       <MdEmail />
     </a>
   </div>

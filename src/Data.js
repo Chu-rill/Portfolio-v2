@@ -8,6 +8,7 @@ import project3 from "./assets/project3.png";
 import project4 from "./assets/project4.png";
 import project5 from "./assets/project5.png";
 import project6 from "./assets/project6.png";
+import project7 from "./assets/project7.png";
 import javascript from "./assets/javascript.png";
 import react from "./assets/react.png";
 import css from "./assets/css.png";
@@ -101,6 +102,16 @@ export const works = [
     description:
       "A web application that allows users to shorten long URLs into more manageable, shareable links. It also tracks usage statistics, providing insights into link performance.",
     stacks: ["EJS", "MongoDB", "Express"],
+  },
+  {
+    name: "Trivio",
+    imgUrl: project7,
+    projectLink: "https://trivio-chi.vercel.app/",
+    codeLink: "https://github.com/Chu-rill/Quiz_app",
+    title: "Fullstack Quiz App",
+    description:
+      "A fullstack quiz application that allows users to create quizzes, answer questions from various categories. It tracks scores, provides a leaderboard, and lets users filter quizzes by category and difficulty.",
+    stacks: ["React", "MongoDB", "Express"],
   },
 ];
 

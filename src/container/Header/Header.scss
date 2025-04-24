@@ -1,9 +1,27 @@
 #home {
   position: relative;
-  background: url("../../assets/bgIMG.png");
-  background-size: cover;
-  background-repeat: repeat;
-  background-position: center;
+  // Dark background color
+  background-color: #121212;
+  // Remove background image properties
+  // background: url("../../assets/bgIMG.png");
+  // background-size: cover;
+  // background-repeat: repeat;
+  // background-position: center;
+  // Dark overlay to dim the background image
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(
+      0,
+      0,
+      0,
+      0.6
+    ); /* Adjust the alpha value for desired darkness */
+  }
 
   .app__wrapper {
     padding: 0;
@@ -60,12 +78,12 @@
   .badge-cmp,
   .tag-cmp {
     padding: 1rem 2rem;
-    border: var(--white-color);
+    border: 1px solid #333; // Dark border for better visibility
     border-radius: 15px;
     flex-direction: row;
     width: auto;
-
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.4); // Semi-transparent background
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); // Stronger shadow for dark theme
   }
 
   .tag-cmp {
@@ -76,11 +94,13 @@
       width: 100%;
       text-transform: uppercase;
       text-align: right;
+      color: #ddd; // Light gray for better readability
     }
   }
 
   span {
     font-size: 2.5rem;
+    color: var(--white-color);
 
     @media screen and (min-width: 2000px) {
       font-size: 5rem;
@@ -107,12 +127,13 @@
     height: 100px;
     border-radius: 50%;
 
-    background: var(--white-color);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.6); // Dark background for circles
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); // Stronger shadow for dark theme
 
     img {
       max-width: 60%;
       max-height: 60%;
+      filter: brightness(0) invert(1); // Invert colors for dark theme
     }
   }
 
@@ -173,38 +194,6 @@
   }
 }
 
-// .app__header-img {
-//   flex: 1;
-//   height: 100%;
-
-//   display: flex;
-//   justify-content: flex-end;
-//   align-items: flex-end;
-//   position: relative;
-//   //   border-radius: 50%;
-//   //   overflow: hidden;
-
-//   img {
-//     width: 40%;
-//     object-fit: contain;
-//     z-index: 1;
-//     border-radius: 50%;
-//   }
-
-//   .overlay_circle {
-//     position: absolute;
-//     left: 0;
-//     right: 0;
-//     bottom: 0;
-//     z-index: 0;
-//     width: 100%;
-//     height: 90%;
-//   }
-
-//   @media screen and (max-width: 450px) {
-//     margin: 20px 0;
-//   }
-// }
 .app__header-img {
   width: 400px; /* Set an explicit width */
   height: 400px; /* Make it equal to the width to form a perfect square */
@@ -232,6 +221,7 @@
     z-index: 0;
     width: 100%;
     height: 90%;
+    background-color: rgba(0, 0, 0, 0.7); // Darken the overlay circle
   }
 
   @media screen and (max-width: 450px) {

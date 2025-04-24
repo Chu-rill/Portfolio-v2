@@ -6,7 +6,7 @@ import project1 from "./assets/project1.png";
 import project2 from "./assets/project2.png";
 import project3 from "./assets/project3.png";
 import project4 from "./assets/project4.png";
-import project5 from "./assets/project5.png";
+// import project5 from "./assets/project5.png";
 import project6 from "./assets/project6.png";
 import project7 from "./assets/project7.png";
 import javascript from "./assets/javascript.png";
@@ -54,24 +54,14 @@ export const about = [
 
 export const works = [
   {
-    name: "Conversa",
-    imgUrl: project1,
-    projectLink: "https://gdsc-chatbot.netlify.app/",
-    codeLink: "https://github.com/Chu-rill/GDSC-Ai",
-    title: "Conversa",
+    name: "InnkeeperPro",
+    imgUrl: project4,
+    projectLink: "https://hotel-management-client-kappa.vercel.app/",
+    codeLink: "https://github.com/Chu-rill/hotel-management-client",
+    title: "InnkeeperPro",
     description:
-      "A chatbot application leveraging Google's Gemini API for intelligent conversation experiences.",
-    stacks: ["HTML", "CSS", "JAVASCRIPT"],
-  },
-  {
-    name: "TaskHub",
-    imgUrl: project2,
-    projectLink: "https://taskhub123.netlify.app/",
-    codeLink: "https://github.com/Chu-rill/Task-Management-Frontend",
-    title: "TaskHub",
-    description:
-      "A comprehensive task management system built with React and Node.js, enabling efficient project organization and tracking.",
-    stacks: ["React JS", "EXPRESS", "MYSQL"],
+      "InnkeeperPro is a FullStack hotel management system used to view listed hotels,rooms and make booking with an admin dashboard.",
+    stacks: ["React", "NestJs", "PostgreSQL", "Tailwind", "Prisma"],
   },
   {
     name: "ChatSpace",
@@ -84,15 +74,27 @@ export const works = [
     stacks: ["REACT", "EXPRESS", "MONGODB", "SOCKET.IO"],
   },
   {
-    name: "Weather App",
-    imgUrl: project4,
-    projectLink: "https://weather-webapp23.netlify.app/",
-    codeLink: "https://github.com/Chu-rill/Weather-App",
-    title: "Weather App",
+    name: "Conversa",
+    imgUrl: project1,
+    projectLink: "https://gdsc-chatbot.netlify.app/",
+    codeLink: "https://github.com/Chu-rill/GDSC-Ai",
+    title: "Conversa",
     description:
-      "A weather application utilizing the OpenWeatherMap API to provide accurate weather information based on user input.",
+      "A chatbot application leveraging Google's Gemini API for intelligent conversation experiences.",
     stacks: ["HTML", "CSS", "JAVASCRIPT"],
   },
+
+  {
+    name: "Trivio",
+    imgUrl: project7,
+    projectLink: "https://trivio-chi.vercel.app/",
+    codeLink: "https://github.com/Chu-rill/Quiz_app",
+    title: "Fullstack Quiz App",
+    description:
+      "A fullstack quiz application that allows users to create quizzes, answer questions from various categories. It tracks scores, provides a leaderboard, and lets users filter quizzes by category and difficulty.",
+    stacks: ["React", "MongoDB", "Express"],
+  },
+
   {
     name: "URL Shortener",
     imgUrl: project6,
@@ -103,15 +105,16 @@ export const works = [
       "A web application that allows users to shorten long URLs into more manageable, shareable links. It also tracks usage statistics, providing insights into link performance.",
     stacks: ["EJS", "MongoDB", "Express"],
   },
+
   {
-    name: "Trivio",
-    imgUrl: project7,
-    projectLink: "https://trivio-chi.vercel.app/",
-    codeLink: "https://github.com/Chu-rill/Quiz_app",
-    title: "Fullstack Quiz App",
+    name: "TaskHub",
+    imgUrl: project2,
+    projectLink: "https://taskhub123.netlify.app/",
+    codeLink: "https://github.com/Chu-rill/Task-Management-Frontend",
+    title: "TaskHub",
     description:
-      "A fullstack quiz application that allows users to create quizzes, answer questions from various categories. It tracks scores, provides a leaderboard, and lets users filter quizzes by category and difficulty.",
-    stacks: ["React", "MongoDB", "Express"],
+      "A comprehensive task management system built with React and Node.js, enabling efficient project organization and tracking.",
+    stacks: ["React JS", "EXPRESS", "MYSQL"],
   },
 ];
 

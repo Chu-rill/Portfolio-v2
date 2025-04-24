@@ -24,11 +24,12 @@ import postman from "./assets/postman.png";
 import figma from "./assets/figma.png";
 import firebase from "./assets/firebase.png";
 import supabase from "./assets/supabase.png";
-import python from "./assets/python.png";
+// import python from "./assets/python.png";
 import api from "./assets/api.png";
 import redux from "./assets/redux.png";
 import sass from "./assets/sass.png";
 import typescript from "./assets/typescript.png";
+import nestjs from "./assets/nestjs.jpeg";
 
 export const about = [
   {
@@ -171,9 +172,9 @@ export const skills = [
     icon: firebase,
   },
   {
-    name: "Python",
+    name: "Typescript",
     bgColor: "#e4e4e4",
-    icon: python,
+    icon: typescript,
   },
   {
     name: "Api",
@@ -184,5 +185,10 @@ export const skills = [
     name: "Supabase",
     bgColor: "#e4e4e4",
     icon: supabase,
+  },
+  {
+    name: "Nestjs",
+    bgColor: "#e4e4e4",
+    icon: nestjs,
   },
 ];

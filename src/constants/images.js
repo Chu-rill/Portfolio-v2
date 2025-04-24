@@ -21,7 +21,7 @@ import postman from "../assets/postman.png";
 import typescript from "../assets/typescript.png";
 import vue from "../assets/vue.png";
 import firebase from "../assets/firebase.png";
-
+import nestjs from "../assets/nestjs.jpeg";
 import about01 from "../assets/about01.png";
 import about02 from "../assets/about02.png";
 import about03 from "../assets/about03.png";
@@ -86,4 +86,5 @@ export default {
   nb,
   skype,
   spotify,
+  nestjs,
 };

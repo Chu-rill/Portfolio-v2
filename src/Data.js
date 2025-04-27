@@ -57,7 +57,7 @@ export const works = [
   {
     name: "InnkeeperPro",
     imgUrl: project4,
-    projectLink: "https://hotel-management-client-kappa.vercel.app/",
+    projectLink: "https://innkeeperpro.vercel.app/",
     codeLink: "https://github.com/Chu-rill/hotel-management-client",
     title: "InnkeeperPro",
     description:
